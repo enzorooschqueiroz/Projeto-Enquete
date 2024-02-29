@@ -9,6 +9,15 @@
     body{
         font-family: Arial, Helvetica, sans-serif;
     }
+    input{
+        width: 95%;
+        height: 22px;
+        padding: 0.3rem;
+        font-size: 1.2rem;
+        border-radius: 5px;
+        border: 0;
+        margin: 10px;
+    }
     .container{
         background-color: #200D23;
         margin: auto;
@@ -23,11 +32,11 @@
         background-color: #631F6F;
         margin: auto;
         width: 550px;
-        border-radius: 50px;
+        border-radius: 5px;
         overflow: hidden;
         display: flex;
         justify-content: center;
-
+        margin-top: 20px;
 
     }
     .header{
@@ -38,13 +47,13 @@
         color: #E4BE23;
         font-size: 1.8rem;
         font-weight: 700;
-        margin-bottom: 1,2rem;
+        margin-bottom: 2rem;
         display: flex;
         justify-content: center;
     }
     .header-title-2{
         color: #fff;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         font-weight: 500;
         margin-bottom: 1,2rem;
         display: flex;
@@ -52,11 +61,13 @@
     }
     .header-subtitle{
         color: #fff;
-        font-size: 1.2rem;
+        font-size: 0.8rem;
         font-weight: 500;
         margin-bottom: 1,2rem;
         display: flex;
         justify-content: center;
+        margin-top: 1rem;
+        text-align: center;
     }
 </style>
 </head>
@@ -66,14 +77,30 @@
             <div class="header-title">
                 GAMES LOVERS ENQUETE
             </div>
-            <div class="header-subtitle">
-
+            <div>
+                <div class="header-subtitle">
+                    Estamos escolhendo nessa enquete os melhores 
+                    tipos de jogos entre os afixionados por video games.
+                    Participe da nossa enquete e escolha os três finalistas
+                </div>
+                <div class="header-subtitle">
+                    A sua escolha é muito importante para nós.
+                </div>
+                <div class="header-subtitle">
+                    No final da enquete iremos sortear um brinde entre os participantes
+                </div>
+                <br>
             </div>
             <div class="container2">
                 <div class="header">
                     <div class="header-title-2">
                         Digite os seus dados e escolha entre os três finalistas!
                     </div>
+                    <br>
+                    <input type="text" placeholder="Digite seu nome : ">
+                    <br>
+                    <input type="text" placeholder="Digite seu email : ">
+
                 </div>           
             </div>
         </div>    
