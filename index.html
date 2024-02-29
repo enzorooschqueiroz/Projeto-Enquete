@@ -11,12 +11,17 @@
     }
     input{
         width: 95%;
-        height: 22px;
-        padding: 0.3rem;
-        font-size: 1.2rem;
+        height: 20px;
+        padding: 0.2rem;
+        font-size: 0.8rem;
         border-radius: 5px;
         border: 0;
         margin: 10px;
+        
+    }
+    input:focus{
+        outline: none;
+        box-shadow: 0 0 10px #f56;
     }
     .container{
         background-color: #200D23;
@@ -35,9 +40,19 @@
         border-radius: 5px;
         overflow: hidden;
         display: flex;
-        justify-content: center;
+        flex-direction: column;
         margin-top: 20px;
 
+    }
+    .container-3{
+        background-color: #631F6F;
+        margin: auto;
+        width: 400px;
+        border-radius: 10px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
     }
     .header{
         padding: 2.5rem;
@@ -69,6 +84,17 @@
         margin-top: 1rem;
         text-align: center;
     }
+    .collumn{
+        background-color: #3E5EEF;
+        margin: auto;
+        width: 150px;
+        border-radius: 10px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 </style>
 </head>
 <body>
@@ -96,12 +122,17 @@
                     <div class="header-title-2">
                         Digite os seus dados e escolha entre os três finalistas!
                     </div>
-                    <br>
-                    <input type="text" placeholder="Digite seu nome : ">
-                    <br>
-                    <input type="text" placeholder="Digite seu email : ">
-
-                </div>           
+                    <div class="container-3">
+                        <input type="text" placeholder="Digite seu nome : ">
+                        <input type="text" placeholder="Digite seu email : ">
+                    </div>
+                </div> 
+                <div class="collumn">
+                    <div class="header-title-2">
+                        Simulação
+                    </div>
+                    <object data="local_airport_white.svg" type="image/svg+xml"></object>
+                </div>          
             </div>
         </div>    
     </div>
