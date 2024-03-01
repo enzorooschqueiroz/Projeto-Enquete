@@ -46,7 +46,6 @@ button:hover{
     background-image: linear-gradient(to top, #631f6f, #200d23);
     background-attachment: fixed;
     margin: auto;
-    height: 600;
     width: 800px;
     box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
@@ -123,8 +122,24 @@ button:hover{
 .container-4{
     margin: 20px;
     background-color: #3E5EEF;
-    border: 10px solid #2A33C1;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border: 10px solid #2A33C1;
+    border-radius: 10px;
+}
+.footer{
+    padding: 2px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.card-border{
+    background-image: linear-gradient(#2638DD,#342987);
+    width: 140px;
+    height: 220px;
+    border-radius: 5px;
 }
