@@ -1,0 +1,130 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #CCCCCC;
+}
+input{
+    width: 70%;
+    height: 2.4rem;
+    padding: 0.2rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 0;
+    margin: 10px;
+    margin-top: auto;
+    margin-bottom: 1.8rem;
+    margin-left: 2rem;
+    margin-right: 3rem;
+    
+}
+input:focus{
+    outline: none;
+    box-shadow: 0 0 10px #f56;
+}
+button{
+    margin: 0.6rem auto;
+    width: 70%;
+    padding: 0.9rem 2rem;
+
+    color: #fff;
+    background-color: #1D0C20;
+    font-weight: 500;
+
+    font-size: 1rem;
+
+    border-radius: 4px; 
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #631F6F;
+    color: #E4BE23;
+    font-weight: 600;
+    
+}
+.container{
+    background-color: #200D23;
+    background-image: linear-gradient(to top, #631f6f, #200d23);
+    background-attachment: fixed;
+    margin: auto;
+    height: 600;
+    width: 800px;
+    box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.container2{
+    background-color: #631F6F;
+    background-image: linear-gradient(to top, #200D23, #631f6f);
+    background-attachment: fixed;
+    margin: auto;
+    width: 750px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-around;
+
+}
+.container-3{
+    background-color: #631F6F;
+    margin: auto;
+    width: 600px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.header{
+    padding: 2.5rem;
+    padding: 0.9rem;
+}
+.header-title{
+    color: #E4BE23;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.header-title-2{
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 1,2rem;
+    display: flex;
+    justify-content: center;
+}
+.header-subtitle{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1,2rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    text-align: center;
+}
+.collumn{
+    width: 180px;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+
+.container-4{
+    margin: 20px;
+    background-color: #3E5EEF;
+    border: 10px solid #2A33C1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
