@@ -29,10 +29,7 @@
         box-shadow: 0 0 10px #f56;
     }
     button{
-        margin-top: auto;
-        margin-bottom: 0.6rem;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0.6rem auto;
         width: 70%;
         padding: 0.9rem 2rem;
 
@@ -114,17 +111,22 @@
         text-align: center;
     }
     .collumn{
-        background-color: #3E5EEF;
-        margin: auto;
         width: 180px;
         border-radius: 2px;
-        overflow: hidden;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         margin-top: 20px;
         margin-bottom: 20px;
         justify-content: space-around;
-        
+    }
+
+    .container-4{
+        margin: 20px;
+        background-color: #3E5EEF;
+        border: 10px solid #2A33C1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 </style>
 </head>
@@ -159,25 +161,31 @@
                     </div>
                 </div> 
                 <div class="collumn">
-                    <div class="header-title-2">
-                        Esportes
+                    <div class="container-4">
+                        <div class="header-title-2">
+                            Esportes
+                        </div>
+                        <object data="sports_soccer_white.svg" type="image/svg+xml"></object>
+                        <button>Votar</button>
                     </div>
-                    <object data="sports_soccer_white.svg" type="image/svg+xml"></object>
-                    <button>Votar</button>
-                </div>        
-                <div class="collumn">
-                    <div class="header-title-2">
-                        Simulação
+                    
+                   
+                    <div class="container-4">
+                        <div class="header-title-2">
+                            Simulação
+                        </div>
+                        <object data="local_airport_white.svg" type="image/svg+xml"></object>
+                        <button>Votar</button>
                     </div>
-                    <object data="local_airport_white.svg" type="image/svg+xml"></object>
-                    <button>Votar</button>
-                </div>
-                <div class="collumn">
-                    <div class="header-title-2">
-                        Simulação
+
+                    <div class="container-4">
+                        <div class="header-title-2">
+                            Simulação
+                        </div>
+                        <object data="psychology_white.svg" type="image/svg+xml"></object>
+                        <button>Votar</button>
                     </div>
-                    <object data="psychology_white.svg" type="image/svg+xml"></object>
-                    <button>Votar</button>
+                    
                 </div>                  
             </div>
         </div>    
