@@ -42,6 +42,7 @@ button:hover{
     
 }
 .container{
+    height: auto;
     background-color: #200D23;
     background-image: linear-gradient(to top, #631f6f, #200d23);
     background-attachment: fixed;
@@ -52,9 +53,10 @@ button:hover{
     overflow: hidden;
     display: flex;
     justify-content: center;
-    margin: auto;
+    margin: auto; 
 }
 .container2{
+    height: auto;
     background-color: #631F6F;
     background-image: linear-gradient(to top, #200D23, #631f6f);
     background-attachment: fixed;
@@ -102,7 +104,7 @@ button:hover{
 }
 .header-subtitle{
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.02rem;
     font-weight: 500;
     margin-bottom: 1,2rem;
     display: flex;
@@ -111,6 +113,7 @@ button:hover{
     text-align: center;
 }
 .collumn{
+    height: auto;
     width: 180px;
     border-radius: 2px;
     display: flex;
@@ -120,8 +123,10 @@ button:hover{
 }
 
 .container-4{
+    height: auto;
     margin: 20px;
     background-color: #3E5EEF;
+    background-image: linear-gradient(to top, #3e5eef, #2a33c1);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -142,4 +147,21 @@ button:hover{
     width: 140px;
     height: 220px;
     border-radius: 5px;
+}
+@media screen and (max-width : 815px){
+   
+    .container{
+        width: 95%;
+    }
+    .container2{
+        width: 95%;
+    }
+    .collumn{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .header-title{
+        font-size: 24px;
+    }
 }
