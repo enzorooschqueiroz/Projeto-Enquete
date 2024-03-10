@@ -101,6 +101,7 @@ button:hover{
     margin-bottom: 1,2rem;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 .header-subtitle{
     color: #fff;
@@ -164,4 +165,5 @@ button:hover{
     .header-title{
         font-size: 24px;
     }
+
 }
